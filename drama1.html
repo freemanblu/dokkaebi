@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>한국 최신 드라마 - 월화 드라마</title>
+    <style>
+        /*
+        선택자{
+            속성명 값;
+        } 
+         */
+         table{
+             margin: 30px auto;
+            
+             /* 마진 : 위아래 양쪽;
+             마진은 바깥 여백
+             양쪽을 auto로 쓰면 테이블이 중앙에 온다!  */
+             border: 7px solid #ccc;
+             /* 보더 : 종류 두께 색상;(두종색) */
+            }
+             td{
+                 padding: 10px;
+                 /* 패딩은 안쪽 여백(값을 하나 쓰면 사방) */
+                 line-height: 45px;
+                 
+                 vertical-align: top;
+                 /* td안의 컨텐츠 세로정렬 */
+            
+            
+         }
+    </style>
+</head>
+
+<body style="text-align: center;">
+    <!--1. 상단부분  -->
+    <div>
+        <!-- 1.1.타이틀 -->
+        <h1>최신드라마 - 월화 드라마</h1>
+        <!-- 1-2.메뉴 -->
+        <h2>
+            <a href="drama1.html">
+                월화드라마
+            </a> |
+            <a href="drama2.html">
+                수목드라마
+            </a>
+        </h2>
+    </div>
+    <!-- 컨텐츠 부분 -->
+    <div>
+        <!-- 드라마 테이블 -->
+        <!-- 테이블 구성 : 2행 4열 -->
+        <table>
+            <!-- 첫번째 줄 -->
+            <tr>
+                <td>
+                    <b>미스 몬테크리스토</b><br>
+                    KBS2 (월~금) 오후 07:50<br>
+                    13.9% 닐슨코리아 (04.07.)<br>
+                    <button>구독 10245</button>
+                </td>
+                <td>
+                    <img src="images/d1.jpg" alt="미스 몬테크리스토">
+                </td>
+                <td>
+                    <b>드라마스테이지</b><br>
+                    라이프타임채널 (금, 토) 오후 11:30<br>
+                    <button>구독 10245</button> <br>
+                </td>
+                <td>
+                    <img src="images/d2.jpg" alt="드라마스테이지">
+                </td>
+            </tr>
+            <!-- 두번째 줄 -->
+            <tr>
+                <td><b>드라마월드</b><br>
+                    라이프타임채널 (금, 토) 오후 11:30<br>
+                    <button>구독 10245</button><br>
+                </td>
+                <td><img src="images/d3.jpg" alt="드라마월드"></td>
+                <td>
+                    <b>오케이 광자매</b><br>
+                    KBS2 (토, 일) 오후 07:55<br>
+                    26.8% 닐슨코리아 (04.04.)<br>
+                    <button>구독 10245</button>
+                </td>
+                <td>
+                    <img src="images/d4.jpg" alt="오케이 광자매">
+                </td>
+            </tr>
+        </table>
+        <!-- 
+                table 요소 :  행과 열로 정렬 해야하는 데이터를 배치하여 보여주기 위한 요소
+                - tr 요소 :  행을 구분하는 요소 (table row)
+                - td 요소: 데이터를 담는 요소 (table data)
+             -->
+    </div>
+</body>
+
+</html>
